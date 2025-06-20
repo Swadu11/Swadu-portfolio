@@ -98,6 +98,9 @@
   .Nav-menu li {
     width: 100%;
   }
+  .Navbar h1{
+    text-align: center;
+  }
 
   .Nav-menu p {
     padding: 8px 10px;
