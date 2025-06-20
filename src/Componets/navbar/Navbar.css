@@ -99,7 +99,7 @@
     width: 100%;
   }
   .Navbar h1{
-    text-align: center;
+    display: block;
   }
 
   .Nav-menu p {

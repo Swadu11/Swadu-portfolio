@@ -39,7 +39,7 @@ function Navbar() {
 
   return (
     <div id="navbar" className="Navbar">
-      <h1>SWADESHWAR K</h1>
+      <h1 className="text-left sm:text-center text-3xl font-bold mt-4">SWADESHWAR K</h1>
 
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <RxCross2 size={28} /> : <GiHamburgerMenu size={28} />}
