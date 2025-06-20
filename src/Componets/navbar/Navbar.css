@@ -58,14 +58,29 @@
 
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px; /* Reduce margin on small screens */
+  }
+
+  .Navbar h1 {
+    white-space: nowrap;         /* Prevent line break */
+    font-size: 1.5rem;           /* Adjust size */
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .Nav-menu {
     position: fixed;
-    top: 70px; /* Below navbar title */
-    right: -250px; /* Hidden off-screen initially */
+    top: 70px;
+    right: -250px;
     width: 200px;
     height: auto;
-    background-color: #161513; /* Match your theme */
+    background-color: #161513;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -84,7 +99,7 @@
   .hamburger {
     display: block;
     position: fixed;
-    top: 20px;
+    top: 10px;
     right: 20px;
     z-index: 1000;
     color: white;
@@ -98,9 +113,6 @@
   .Nav-menu li {
     width: 100%;
   }
-  .Navbar h1{
-    display: block;
-  }
 
   .Nav-menu p {
     padding: 8px 10px;
@@ -112,11 +124,4 @@
   .Nav-menu p:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
-
-  .Navbar h1 {
-  display: block;
-  white-space: nowrap;   /* ✅ Prevents line break */
-  font-size: 1.5rem;      /* ✅ Adjust size if it's too big for mobile */
-  text-overflow: ellipsis;/* Optional: add "..." if text overflows */
-}
 }
