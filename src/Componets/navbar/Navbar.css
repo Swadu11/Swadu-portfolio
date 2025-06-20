@@ -112,4 +112,11 @@
   .Nav-menu p:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
+
+  .Navbar h1 {
+  display: block;
+  white-space: nowrap;   /* ✅ Prevents line break */
+  font-size: 1.5rem;      /* ✅ Adjust size if it's too big for mobile */
+  text-overflow: ellipsis;/* Optional: add "..." if text overflows */
+}
 }
