@@ -1,0 +1,175 @@
+.myProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.myProject_title{
+    position: relative;
+
+}
+.myProject_title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Myproject-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.Myproject-container img{
+    box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Myproject-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid#ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #ccc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.project-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.my-Github{
+    color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+
+.project-buttons a:first-child button {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.project-buttons a:first-child button:hover {
+  background-color: #554bdb;
+}
+
+.project-buttons a:last-child button {
+  background-color: #ff00ff;
+  color: white;
+}
+
+.project-buttons a:last-child button:hover {
+  background-color: #cc00cc;
+}
+
+.my-Github:hover{
+    border-color: #B415FF;
+    background-color: #cc00cc;
+}
+
+
+
+@media (max-width: 992px) {
+  /* Project section */
+  .myProject {
+    margin: 60px 40px;
+    gap: 50px;
+  }
+  .Myproject-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .Myproject-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer {
+    margin: 40px 40px;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer-top-left,
+  .footer-top-right {
+    flex: 1 1 45%;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+  }
+  .footer-bottom-right {
+    gap: 20px;
+  }
+}
+
+/* === MOBILE (up to 600px) === */
+@media (max-width: 600px) {
+  /* Project section */
+  .myProject {
+    margin: 40px 20px;
+    gap: 30px;
+  }
+  .myProject_title h1 {
+    font-size: 36px;
+    padding: 0 10px;
+  }
+  .Myproject-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .Myproject-container img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card h2 {
+    font-size: 18px;
+  }
+  .project-card p {
+    font-size: 13px;
+  }
+  .project-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .my-Github {
+    padding: 16px 24px;
+  }}
+
+
