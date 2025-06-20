@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import Swa_Photo from '../../../src/assets/Swa_pic.jpg'
+
 import github from '../../../src/assets/i_github.png'
 import gmail from '../../../src/assets/i_gmail.png'
 import LinkedIn from '../../../src/assets/i_linkedin.png'
