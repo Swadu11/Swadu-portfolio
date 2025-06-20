@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
-import AboutMe from "./Components/About/Aboutme";
+import AboutMe from './Componets/About/AboutMe'
 import Contact from './Componets/Contact/Contact'
 import Footer from './Componets/Footer/Footer'
 import Hero from './Componets/Hero/Hero'
