@@ -29,7 +29,7 @@ function Project() {
         })}
         
       </div>
-      <a href="https://github.com/Swadu11" className="my-Github" target="_blank" rel="noopener noreferrer">  My GitHub</a>
+      <a href="https://github.com/Swadeshwar-k" className="my-Github" target="_blank" rel="noopener noreferrer">  My GitHub</a>
     </div>
   );
 }

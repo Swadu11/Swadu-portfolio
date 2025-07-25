@@ -15,7 +15,7 @@ function AboutMe(){
             <div className="about-right">
                 <div className="about-para">
                     <p>I'm Swadeshwar, I completed my B.E. in Ece at Sathyabama University.<br/>I have interest in front-end development, especially working with React.</p>
-                    <div className="about-media"><img src={github} alt="" /><a href="https://github.com/Swadu11"  target="_blank" rel="noopener noreferrer"> GitHub</a></div>
+                    <div className="about-media"><img src={github} alt="" /><a href="https://github.com/Swadeshwar-k"  target="_blank" rel="noopener noreferrer"> GitHub</a></div>
                     <div className="about-media"><img src={gmail} alt="" /><a  href ="mailto:www.swadeshwarko@gmail.com"  target="_blank" rel="noopener noreferrer">Gmail</a></div>
                     <div className="about-media"><img src={LinkedIn} alt="" /><a href="https://www.linkedin.com/in/swadeshwar-k-038558251/" target="_blank" rel="noopener noreferrer">  LinkedIn</a></div>
                 </div>
